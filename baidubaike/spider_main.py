@@ -21,7 +21,7 @@ class SpiderMan():
                 self.outputer.collect_data(new_data)
                 url_count = self.urls.get_url_count()
                 print(url_count)
-                if count >= 100:
+                if count >= 5:
                     break
                 count = count + 1
             except Exception as e:
