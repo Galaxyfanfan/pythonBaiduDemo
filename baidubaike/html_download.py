@@ -30,7 +30,7 @@ class htmlDownloader(object):
 
         if url == None:
             return None
-
+        #注意要写headers 不然请求下来的数据不全
         headers = {
             'user-agent': 'Mozilla / 5.0(Windows NT 10.0; WOW64) AppleWebKit / 537.36(KHTML, likeGecko) Chrome / 53.0.2785.104Safari / 537.36Core / 1.53.4882.400QQBrowser / 9.7.13059.400'
         }
